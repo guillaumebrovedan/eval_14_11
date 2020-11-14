@@ -1,0 +1,47 @@
+header {
+    height: 15vh;
+}
+#logo {
+    height: 15vh;
+}
+h1 {
+    font-size: 4vw;
+}
+header a {
+    font-size: 2vw;
+}
+main {
+    min-height: 73.3vh;
+}
+main img {
+    min-width: 100%;
+}
+footer div {
+    height: 5vh;
+}
+.rangee:nth-child(even) { background: #424143; }
+.rangee:nth-child(odd) { background:#363536; }
+.rangee {
+    color: white;
+}
+.rangee:hover {
+    background-color: #6ccef4;
+    color: #424143;
+}
+.cardanim {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardanim:hover {
+    transform: scale(1.06);
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+body {
+    opacity: 0;
+    transition: 1.5s;
+    transition-timing-function: ease-in;
+}
+#prgpd {
+    font-size: 12px;
+}
